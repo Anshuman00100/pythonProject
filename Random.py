@@ -1,6 +1,3 @@
-Height = 1.79
-Weight = 70
-bmi: float = Weight/Height**2
-round_off: int = round(bmi)
-print("The body mass index is =")
-print(round_off)
+a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+b=[num for num in a if num%2==0]
+print(b)

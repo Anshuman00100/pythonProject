@@ -1,7 +1,7 @@
 from task import Task
-from user import User
+from user import user
 t1=Task(2,'10th Aug 2021','16th Aug 2021','python training','not completed','high',2)
-u1=User(27,'Akshay','akshay@gmail.com',9865798388)
+u1=user(27, 'Akshay', 'akshay@gmail.com', 9865798388)
 
 
 def assign_task_to_user(user,task):
